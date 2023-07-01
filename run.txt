@@ -1,0 +1,23 @@
+Hello!
+This was my first time making a frontend for anything, so its crude, but all the sql queries
+given to us work.
+First you will have to install Python from https://www.python.org/downloads/ incase you dont
+have it.
+While installing, select add python to path.
+If you are using python3, run
+pip3 install mysql-connector-python on your terminal.
+else use
+pip install mysql-connector-python
+This downloads the necessary libraries to run these files.
+
+Then in your MySql WorkBench, open the sql files from this zip folder and run the files create tables
+and sample data to have something to use this app from.
+
+Then you have to just add your connection details in the files loginpage.py(line 9-11), 
+admin_homepage.py(line 10-12), teacher_homepage.py(line 10-12) and student_homepage.py(line 10-12).
+
+You are all set to go. Run the file loginpage.py.
+Sample logins:
+username = P050, password = SB050
+username = P042, password = PI024
+username = P001, password = SD001
